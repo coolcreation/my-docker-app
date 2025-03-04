@@ -8,6 +8,6 @@ RUN git clone https://github.com/coolcreation/my-docker-app.git
 
 WORKDIR /my-docker-app
 
-RUN pip install -r requirements.txt
+# RUN pip install -r requirements.txt
 
 RUN /bin/bash
