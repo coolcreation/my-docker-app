@@ -6,6 +6,6 @@ RUN apt install -y git
 
 RUN git clone https://github.com/coolcreation/my-docker-app.git
 
-WORKDIR /round-keys-5c5
+WORKDIR /my-docker-app
 
 RUN /bin/bash
